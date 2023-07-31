@@ -1,6 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+body{
+    /* background-color: solid black; */
+    background-color: black;
+
 }
 header{
     
@@ -32,6 +38,7 @@ nav ul li{
 nav ul li a{
     color: whitesmoke;
     text-decoration: none;
+    font-size: 18pt;
    
 }
 nav ul li a:hover{
@@ -41,16 +48,27 @@ nav ul li a:hover{
 .search{
     display: flex;
     align-items: center;
+    margin-left: 7vw;
+    /* font-size: 16pt; */
 }
 .search input{
-    width: 493px;
-    height: 27px;
-    border-radius: 2px;
+    width: 549px;
+    height: 39px;
+    font-size: 16pt;
+    border-radius: 20px;
     margin: 0 16px 0 56px;
     padding: 0 12px;
 }
 .searh button{
     font-family: 'Baloo Bhai 2', cursive;
+    
+}
+.slider img{
+    border-radius: 20px;
+}
+.slider img:hover{
+    box-shadow: 0 20px 6px rgba(167, 5, 8, 0.12), 0 1px 40px rgba(253, 11, 11, 0.979);
+
 }
 .slider{
     margin: 12px auto ;
@@ -69,6 +87,12 @@ nav ul li a:hover{
 .card h2{
     font-family: 'Baloo Bhai 2', cursive;
 }
+.ci img{
+    border-radius: 16px;
+}
+.ci img:hover{
+    box-shadow: 0 20px 6px rgba(35, 5, 167, 0.12), 0 1px 30px rgba(253, 11, 11, 0.979);
+}
 .ci{
     width: 10vw;
     display: inline-flex;
@@ -80,6 +104,11 @@ nav ul li a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.lines{
+    font-size: 18pt;
+    font-style: italic;
+    color: yellow;
 }
 .container{
     min-height: calc(100vh - 58px - 12vh);
